@@ -18,7 +18,7 @@ async def on_ready():
 #generates greeting if new member joins server
 @client.event
 async def on_member_join(member):
-  #yoosung dms welcome server message
+  #albedo dms welcome server message
   await member.create_dm()
   await member.dm_channel.send(
     f'Glad I can count on you to join me, {member.name}.')
